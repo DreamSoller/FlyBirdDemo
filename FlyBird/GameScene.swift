@@ -12,6 +12,7 @@ import GameplayKit
 // 设置三个常量来表示小鸟、水管和地面物理体，
 let birdCategory: UInt32 = 0x1 << 0
 let pipeCategory: UInt32 = 0x1 << 1
+
 let floorCategory: UInt32 = 0x1 << 2
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
